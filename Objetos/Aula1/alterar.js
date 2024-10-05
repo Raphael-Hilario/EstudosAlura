@@ -20,10 +20,12 @@ const pessoa = {
     dataNascimento: "25/01/1980",
     carteiraIdentidade: "997776-X",
     email: "profbanner@email.com",
-    telefone: "+552877776666",
+    telefone: ["+552877776666"],
     cidade: "Cachoeiro de Itapemirim",
     estado: "ES"
 }
+
+console.log(pessoa);
 
 pessoa.cpf = "12345678".substring(0, 4);
 pessoa.seguroSocial = "98654321";

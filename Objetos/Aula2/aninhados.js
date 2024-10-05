@@ -5,6 +5,8 @@ const cliente = {
     telefone: ["11222333440", "1144455660"],
 };
 
+console.log(cliente);
+
 cliente.endereco = {
     rua: "R. Joseph Climber",
     numero: 1337,
@@ -12,5 +14,5 @@ cliente.endereco = {
     complemento: "ap 934",
 };
 
-//console.log(cliente.endereco.rua);
 console.log(cliente);
+console.log(cliente.endereco.rua);
